@@ -1,23 +1,38 @@
 <h1>Media</h1>
-<h2>CoRL 2020 Presentation</h2>
-<div class="videoWrapper">
-<iframe width="560" 
-      height="315" 
-      src="https://www.youtube.com/embed/wuOOIuC1_h4" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-</iframe>
-</div>
+<!--<h2>CoRL 2020 Presentation</h2>-->
+<!--<div class="videoWrapper">-->
+<!--<iframe width="560" -->
+      <!--height="315" -->
+      <!--src="https://www.youtube.com/embed/wuOOIuC1_h4" -->
+      <!--frameborder="0" -->
+      <!--allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>-->
+<!--</iframe>-->
+<!--</div>-->
 <h2>Experiments Videos</h2>
 <h3>Fetch Pick and Place</h3>
 <div class="videoWrapper">
+  <p>In the (sparse) Fetch Pick and Place task, the policy guided iCEM expert reaches 100% of the goals.<br />
+  <br />
+  Our policy reaches many of the goals as well.<br />
+  <br />
+  The SAC baseline is not able to learn a useful policy.</p>
 <iframe src="https://drive.google.com/file/d/1ittjUEFZc-XF2BLPvDhfyrJqOfbwgvio/preview" width="640" height="480"></iframe>
 </div>
 <h3>Door</h3>
+<p>In the (sparse) door opening task, the iCEM expert manages to open the door without any problems.<br />
+<br />
+Also our policy manages to open the door most of the time.<br />
+<br />
+The SAC baseline does not find the right solution.</p>
 <div class="videoWrapper">
 <iframe src="https://drive.google.com/file/d/1dabITv3ReiUFQ2NdwtzzuU58HU0rWtEu/preview" width="640" height="480"></iframe>
 </div>
 <h3>Huamnoid Standup</h3>
+<p>In the humanoid stand up task, the iCEM expert manages to stand up and balance most of the time over the full task horizon.<br />
+<br />
+Our policy manages to stand up but does not manage to recover from most of the falls due to the many possible ways of falling.<br />
+<br />
+The SAC baseline does not manage to stand up. It only manages to sit up. This is one of the possible local optima of the cost function.</p>
 <div class="videoWrapper">
 <iframe src="https://drive.google.com/file/d/1GH_uoHJmMmmvWaGAzJhTWfFrhxo3WviE/preview" width="640" height="480"></iframe>
 </div>
